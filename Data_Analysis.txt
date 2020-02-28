@@ -1,0 +1,44 @@
+# Welcome to Udacity-bikeshare data analysis
+#-- Lazola Makhupula --
+
+# Data Structure
+#Data is 3 .csv files of a mobile bike rental service across 3 cities in US.
+summary(chicago) - has 9 Columns
+summary(new_york_city) has 9 Columns
+summary(washington) has 7 Columns
+
+Q1 What is the summary usage of the services and who uses it more over the age groups?
+# What is the avergare (include min/max comparison) "Trip Duration" for each city
+Average(chicago) - 936.2 (Min-60.0/Max-86224.0) 
+Avergare(new_york_city) - 899.7 (Min-61.0/Max-2155775.0)
+Average(washington) - 1237.3 (Min-60/Max-1235662.2)
+
+- As expected NYC has the longest recorded distance travelled and Chicago the least, the avergae minimum distance is the same, while the actual average distance travelled is more in DC and less NYC.
+
+# Which age cohot has taken the most trips (dissag by Gender) in Chicago
+RDQA - (61019 rows with missing values not included in the analysis)
+People aged 45-65 years are the promininent users of the bikeshare system, mostly male users at that (which is sensible considering family, life stage, health awareness etc)
+The number of female trips has also spiked considerable around the early 70s to the late 80s born individuals, which shows a much more aware and mature crowd of females.
+
+# Which age cohot has taken the most trips (dissag by Gender) in New_York_City 
+RDQA - (28220 rows with missing values not included in the analysis)
+Male riders have the most trips across the ages
+There is a huge usage spike from the males born in the late 80s to the mid 90s, which is expected for cost saving working class
+The usage by female users is constantly rising as women get younger
+
+Q2 Who uses the services more by user type for loyalty rewards programmes and improving makerting?
+# Who are the most prominent 'user types' of the bikeshare system (who uses it more) - using Chicago as a proxy
+The bikeshare system has far more subscriber users than customers and dependent users combined.
+This depicts a loyalty view in terms of users assuming subscribers are customers who use the bikeshare service regularly for their daily commute.
+The customer services dept. at bikeshare should be looking to have rewards for long term subscribers and looking to advertise more on especially the health and economic, not to mention the environmental benefits of using the bikeshare services.
+
+
+Q3 Who uses the bikeshare services more by gender (irrespective of age) to improve tailured services and match benefits?
+# Who uses the bikeshare more when looking at males vs females - using Chicago as a proxy
+The bikeshare service is used far more by males compared to females.
+More than 3/4 of the users of the bikeshare services are male users and just under a 1/4 are female user.
+In an ever changing world, the bikeshare system needs to accommodate more female users by maybe looking at female attractive packages -
+- Colors of their bikes (pink)
+- Have tricycles that can accommodate a child
+- Have a grocery busket for home shopping and 1st for women rewards systems
+- Maybe organize a special with station based stores for discounts on female products (e.g. sanitary towels)
